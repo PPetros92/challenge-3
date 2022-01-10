@@ -87,7 +87,11 @@ header a:last-of-type:hover{
 body{
     width: 1010px;
     margin: 0 auto;
+
+    
 }
+
+
 .prvy_pic img{
     width: 730px;
     height: auto;
@@ -308,37 +312,41 @@ footer img{
 }
 
 
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width:1058px) {
+    /*HEADER*/
+    
+    header {
+        width: 40%;
+        margin: 0;
+    }
+    header img {
+        width: 30%;
+        
+    }
+    header a:first-of-type {
+        margin-top: 0;
+    }
+    header h1{
+        color: rgba(0, 0, 0, 0.726);
+    }
+    header p {
+        width: 100%;
+        padding: 0 2%;
+        margin-bottom: 12%;
+    }
+    header a:last-of-type {
+        padding: 15px 55px;
+    }
+
+    /*body*/
+
+    .prvy_pic img {
+        width: 400px;
+        margin: 0;
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside {
-    display: none;
-}
