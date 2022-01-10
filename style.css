@@ -1,0 +1,344 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5%;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+*/
+
+/*HEADER*/
+/*.............................................................*/
+/*.............................................................*/
+/*.............................................................*/
+
+header {
+    text-align: center;
+    width: 1010px; /* bolo 50% len skuska */
+    margin: 0 auto;
+    padding-top: 3%;
+    position: relative;
+    padding-bottom: 10%;
+
+}
+header a:first-of-type{
+    text-decoration: none;
+    color: hsl(0, 100%, 63%);
+    border: 1px solid hsl(0, 100%, 63%);
+    padding: 0.3% 3%;
+    border-radius: 15px;
+    position: absolute;
+    right: 1%;
+    box-sizing: border-box;
+    margin-top: 1%;
+}
+header a:first-of-type:hover{
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+header img {
+    position: absolute;
+    left: 1%;
+    
+
+
+}
+header h1 {
+    margin-top: 15%;
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: 700;
+}
+header p {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    line-height: 26px;
+}
+
+header a:last-of-type {
+
+    text-decoration: none;
+    background-color:hsl(322, 100%, 66%);
+    padding: 1.5% 8%;
+    border-radius: 35px;
+    color: white;
+}
+header a:last-of-type:hover{
+    background-color: hsl(321, 100%, 78%);   
+}
+
+/*BODY.......................................................
+.............................................................
+.............................................................*/
+body{
+    width: 1010px;
+    margin: 0 auto;
+}
+.prvy_pic img{
+    width: 730px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+/*CISLA V BODY*/
+.cisla {
+    position: relative;
+    margin-top: 12%;
+}
+.cisla h2{
+    font-size: 5.2em;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.cisla p{
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.479);
+}
+.prve_cislo{
+    position: relative;
+    left: 10%;
+}
+.druhe_cislo{
+    position: absolute;
+    right: 10%;
+    top: -1%;
+}
+.druhe_cislo p {
+    margin-left: 4%;
+}
+
+/*COMUNITA CAST*/
+
+.comunita{
+    margin-top: 35%;
+}
+
+.prva_comunita p,
+.druha_comunita p,
+.tretia_comunita p{
+    width: 50%;
+}
+/*PRVA_COMUNITA*/
+
+.prva_comunita{
+    position: relative;
+    margin-bottom: 35%;
+}
+.prva_comunita img{
+    position: absolute;
+    right: 0%;
+    top: -135%;
+    width: 50%;
+}
+/*DRUHA COMUNITA*/
+.druha_comunita{
+    position: relative;
+    margin-bottom: 35%;
+}
+.druha_comunita img{
+    width: 50%;
+}
+.druha_comunita h3{
+    position: absolute;
+    top: 29%;
+    right: 22%;
+}
+.druha_comunita p{
+    position: absolute;
+    top: 40%;
+    right: 3.7%;
+    width: 40%;
+}
+
+/*TRETIA_COMUNITA*/
+.tretia_comunita{
+    position: relative;
+    margin-bottom: 35%;
+}
+.tretia_comunita img{
+    position: absolute;
+    right: 0%;
+    top: -135%;
+    width: 50%;
+}
+
+/*POD_FOOTER*/
+
+.pod_footer{
+    text-align: center;
+    margin-bottom: 15%;
+    position: relative;
+    
+}
+.pod_footer h3{
+    font-size: 2.4em;
+}
+.pod_footer a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 18px 55px;
+    border-radius: 25px;
+}
+.pod_footer a:hover{
+    background-color: hsl(321, 100%, 78%); 
+}
+footer img{
+    width: 110.2%;
+    position: relative;
+    left: -62px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-image: url(img/xxx.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position-x: 65%;
+    background-size: 1130px;
+    position: relative;
+    height: 580px;
+
+}
+.footer img{
+    width: 20%;
+    padding-left: 63px;
+}
+.footer p,
+.footer h2{
+    width: 35%;
+    color: white;
+}
+
+.footer_left_side {
+    position: relative;
+    top: 31%;
+    left: 3%;
+}
+.footer_left_side img{
+    filter: invert(93%) sepia(76%) saturate(6354%) hue-rotate(180deg) brightness(109%) contrast(103%);
+}
+
+
+.footer_right_side {
+    position: relative;
+    left: 52%;
+    top: -25%;
+
+}
+.phone {
+    position: relative;
+    top: 30px;
+}
+.phone img{
+    width: 2%;
+    filter: none;
+}
+.phone p {
+    position: relative;
+    left: 40px;
+    top: -42px;
+}
+
+.mail {
+    position: relative;
+}
+.mail img{
+    width: 2%;
+    filter: none;
+}
+.mail p {
+    position: relative;
+    left: 40px;
+    top: -42px;
+    margin-bottom: -15px;
+
+}
+
+
+.stranky {
+    color: white;
+}
+.stranky i {
+    margin-right: 1.5%;
+    font-size: 40px;
+}
+
+.email2 {
+    padding: 13px 0 13px 10px;
+    width: 285px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.submit {
+    margin-left: 3%;
+    font-size: 20px;
+    padding: 11px 18px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: hsl(321, 100%, 78%); 
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside {
+    display: none;
+}
