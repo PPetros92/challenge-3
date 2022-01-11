@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 0 5%;
+
     
 }
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     text-align: center;
-    width: 1010px; /* bolo 50% len skuska */
+    width: 80%; /* bolo 50% len skuska */
     margin: 0 auto;
     padding-top: 3%;
     position: relative;
@@ -85,13 +85,16 @@ header a:last-of-type:hover{
 .............................................................
 .............................................................*/
 body{
-    width: 1010px;
+    width: 80%;
     margin: 0 auto;
 
     
 }
 
-
+.prvy_pic {
+    width: inherit;
+    margin: 0 auto;
+}
 .prvy_pic img{
     width: 730px;
     height: auto;
@@ -103,6 +106,8 @@ body{
 /*CISLA V BODY*/
 .cisla {
     position: relative;
+    width: inherit;
+    margin: 0 auto;
     margin-top: 12%;
 }
 .cisla h2{
@@ -130,6 +135,8 @@ body{
 /*COMUNITA CAST*/
 
 .comunita{
+    width: inherit;
+    margin: 0 auto;
     margin-top: 35%;
 }
 
@@ -137,6 +144,7 @@ body{
 .druha_comunita p,
 .tretia_comunita p{
     width: 50%;
+
 }
 /*PRVA_COMUNITA*/
 
@@ -144,12 +152,21 @@ body{
     position: relative;
     margin-bottom: 35%;
 }
+/* .prva_comunita h3 {
+    
+}
+.prva_comunita p {
+
+} */
+
 .prva_comunita img{
     position: absolute;
-    right: 0%;
-    top: -135%;
     width: 50%;
+    left: 50%;
+    top:-170%;
 }
+
+
 /*DRUHA COMUNITA*/
 .druha_comunita{
     position: relative;
@@ -158,16 +175,21 @@ body{
 .druha_comunita img{
     width: 50%;
 }
-.druha_comunita h3{
+ /* .druha_comunita h3{
     position: absolute;
     top: 29%;
-    right: 22%;
+    right: 25.8%;
+}*/
+ .druha_comunita p{
+
+    width: 100%; 
 }
-.druha_comunita p{
+.d_c_pismo {
     position: absolute;
-    top: 40%;
-    right: 3.7%;
-    width: 40%;
+    top: 36%;
+    right: -5%;
+    width: 48%;
+
 }
 
 /*TRETIA_COMUNITA*/
@@ -177,9 +199,9 @@ body{
 }
 .tretia_comunita img{
     position: absolute;
-    right: 0%;
-    top: -135%;
     width: 50%;
+    left: 50%;
+    top:-170%;
 }
 
 /*POD_FOOTER*/
@@ -314,39 +336,113 @@ footer img{
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width:1254px) {
+    .prva_comunita img {
+        top: -58%;
+    }
+    .tretia_comunita img {
+        top: -58%;
+    }
+    .d_c_pismo {
+        top: 26%;
+    }
 
-@media screen and (max-width:1058px) {
-    /*HEADER*/
+
+}
+@media screen and (max-width:984px) {
     
     header {
-        width: 40%;
-        margin: 0;
+        width: 100%;
+        margin-bottom: 20%;
     }
     header img {
-        width: 30%;
-        
+        width: 40%;
+        margin-top: 1%;
     }
-    header a:first-of-type {
-        margin-top: 0;
-    }
-    header h1{
-        color: rgba(0, 0, 0, 0.726);
+    header h1 {
+        font-size: 1.9em;
+        margin-top: 45%;
     }
     header p {
         width: 100%;
-        padding: 0 2%;
-        margin-bottom: 12%;
+        margin-bottom: 15%;
     }
     header a:last-of-type {
-        padding: 15px 55px;
+        padding: 5% 18%;
     }
-
-    /*body*/
-
     .prvy_pic img {
-        width: 400px;
-        margin: 0;
+        width: 100%;
     }
+
+    /*CISLA*/
+
+    .druhe_cislo {
+        position: relative;
+        left: 10%;
+        margin-top: 30%;
+    }
+    .prve_cislo p{
+        font-size: 1.3em;
+    }
+    .druhe_cislo p {
+        font-size: 1.7em;
+    }
+
+    
+    
+    
+    
+    
+    
+    .prva_comunita h3 {
+        text-align: center;
+    }
+    .prva_comunita p {
+        width: 270px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .prva_comunita img {
+        width: 100%;
+        position: unset;
+    }
+
+    .druha_comunita img {
+        width: 100%;
+    }
+    .d_c_pismo {
+        position: unset;
+        text-align: center;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .tretia_comunita h3 {
+        text-align: center;
+    }
+    .tretia_comunita p {
+        width: 270px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .tretia_comunita img {
+        width: 100%;
+        position: unset;
+    }
+
+
+}
+
+
+
+ 
+
+
+
+footer {
+    display: none;
+}
 
 
 
